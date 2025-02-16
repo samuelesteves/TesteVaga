@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "lib": ["es5", "es6"],
+    "target": "es6", // Usando ES6 para aproveitar os recursos mais modernos
+    "module": "commonjs", // Compatível com Node.js
+    "moduleResolution": "node", // Resolução de módulos para Node.js
+    "outDir": "./build", // Pasta onde o código compilado será colocado
+    "rootDir": "./src", // Diretório de origem do código TypeScript
+    "emitDecoratorMetadata": true, // Necessário para trabalhar com decoradores (TypeORM)
+    "experimentalDecorators": true, // Habilitar suporte a decoradores
+    "sourceMap": true, // Habilitar o mapeamento para facilitar a depuração
+    "esModuleInterop": true, // Compatibilidade entre módulos ES e CommonJS
+    "strict": true // Ativar verificações rigorosas para maior segurança
+  }
+}
